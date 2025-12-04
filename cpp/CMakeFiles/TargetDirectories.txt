@@ -1,0 +1,3 @@
+/mnt/c/Users/Brenn/my_computer/ProjectileProjection/ProjectileProjection/cpp/CMakeFiles/satellite.dir
+/mnt/c/Users/Brenn/my_computer/ProjectileProjection/ProjectileProjection/cpp/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Brenn/my_computer/ProjectileProjection/ProjectileProjection/cpp/CMakeFiles/rebuild_cache.dir

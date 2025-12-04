@@ -1,0 +1,64 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Linux",
+//             "includePath": [
+//                 "${default}"
+//             ],
+//             "defines": [],
+//             "compilerPath": "/usr/bin/g++",
+//             "cStandard": "c17",
+//             "cppStandard": "gnu++17",
+//             "intelliSenseMode": "linux-gcc-x64"
+//         }
+//     ],
+//     "version": 4
+// }
+
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "WSL",
+            "compilerPath": "/usr/bin/g++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "/usr/include/c++/11",      // adjust to your WSL GCC version
+                "/usr/include/x86_64-linux-gnu"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Windows",
+            "compilerPath": "C:/mingw64/bin/g++.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "C:/mingw64/include",
+                "C:/mingw64/include/c++/11"   // adjust to your MinGW version
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "Fedora Linux",
+            "compilerPath": "/usr/bin/g++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "/usr/include/c++/12",       // adjust to Fedora GCC version
+                "/usr/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ]
+}

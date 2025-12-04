@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/satellite.dir/main.cpp.o CMakeFiles/satellite.dir/src/glad.c.o -o satellite  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 
